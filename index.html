@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <div id="logo">
+            <i class="fa-brands fa-spotify"></i>
+            <span class="icone-logo">Spotify</span>
+        </div>
+        <div id="icones1">
+            <ul>
+                <li id="selecionado">
+                    <i class="fa-solid fa-house"></i>
+                    Inicio
+                </li>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Buscar
+                </li>
+                <li>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    Sua Biblioteca
+                </li>
+            </ul>
+        </div>
+        <div class="separador"></div>
+        <div id="icones2">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-square-plus"></i>
+                    Criar playlist
+                </li>
+                <li>
+                    <i class="fa-solid fa-heart"></i>
+                    Músicas Curtidas
+                </li>
+            </ul>
+        </div>
+        <div class="separador"></div>
+        <div id="lista">
+            <ul>
+                <li>Top Brasil</li>
+                <li>Foco no Estudo</li>
+                <li>Lo-fi Beats</li>
+                <li>Treino Pesado</li>
+                <li>Chill Vibes</li>
+                <li>Flashback 90's</li>
+                <li>Acústico</li>
+                <li>Rap Nacional</li>
+                <li>Mood Booster</li>
+                <li>Indie Brasil</li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="barra-de-pesquisa">
+        <div id="botoes">
+            <button><</button>
+            <button>></button>
+        </div>
+        <div id="input-icone">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="pesquisa" placeholder="O que você quer ouvir?">
+        </div>
+        <div id="perfil">
+            <i class="fa-solid fa-bell"></i>
+            <div id="alterar-perfil">
+                <img src="img/icone-utilisateur.png" id="icone-perfil">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>        
+        </div>
+    </nav>
+
+    <main id="conteudo">
+        <section id="bom-dia">
+            <h2>Bom dia</h2>
+            <div id="container-musicas">
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem1.webp" alt="musica1">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 1</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem2.jpeg" alt="musica2">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 2</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem3.webp" alt="musica3">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 3</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem4.webp" alt="musica4">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 4</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem5.JPG" alt="musica5">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 5</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div class="selecao-musicas">
+                    <div class="img">
+                        <img src="img/imagem6.webp" alt="musica6">
+                    </div>
+                    <div class="escritas">
+                        <h3>Mix 6</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        
+        <section class="carrosel">
+            <h2>Feito para voce</h2>
+            <button class="btn-esquerdo"><</button>
+                <div class="container-carrosel">
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem1.webp" alt="musica1">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 1</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem2.jpeg" alt="musica2">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 2</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem3.webp" alt="musica3">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 3</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem4.webp" alt="musica4">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 4</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem5.JPG" alt="musica5">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 5</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem6.webp" alt="musica6">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 6</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>   
+                    
+                    <div>
+                        <div class="img2">
+                            <img src="img/imagem7.png" alt="musica7">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 7</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="img2">
+                            <img src="img/musicaplay.png" alt="musica8">
+                        </div>
+                        <div class="escritas2">
+                            <h3>Mix 8</h3>
+                            <p>Feito pra você</p>
+                        </div>
+                    </div>  
+                </div>   
+            <button class="btn-direito">></button>
+        </section>
+        
+        
+        <section class="carrosel">
+            <h2>Feito para voce</h2>
+            <button class="btn-esquerdo"><</button>
+            <div class="container-carrosel">
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem1.webp" alt="musica1">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 1</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem2.jpeg" alt="musica2">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 2</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem3.webp" alt="musica3">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 3</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem4.webp" alt="musica4">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 4</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem5.JPG" alt="musica5">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 5</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem6.webp" alt="musica6">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 6</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem7.png" alt="musica7">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 7</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/musicaplay.png" alt="musica8">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 8</h3>
+                        <p>Feito pra você</p>
+                    </div>     
+                </div>
+            </div>            
+        <button class="btn-direito">></button>
+        </section>
+        
+        
+        <section class="carrosel">
+            <h2>Feito para voce</h2>
+            <button class="btn-esquerdo"><</button>
+            <div class="container-carrosel">
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem1.webp" alt="musica1">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 1</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem2.jpeg" alt="musica2">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 2</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem3.webp" alt="musica3">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 3</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem4.webp" alt="musica4">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 4</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem5.JPG" alt="musica5">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 5</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem6.webp" alt="musica6">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 6</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>    
+                
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem7.png" alt="musica7">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 7</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+                <div> 
+                    <div class="img2">
+                        <img src="img/musicaplay.png" alt="musica8">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 8</h3>
+                        <p>Feito pra você</p>
+                    </div>    
+                </div>
+            </div>   
+        <button class="btn-direito">></button>
+        </section>
+
+        <section class="carrosel">
+            <h2>Feito para voce</h2>
+            <button class="btn-esquerdo"><</button>
+            <div class="container-carrosel">
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem1.webp" alt="musica1">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 1</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem2.jpeg" alt="musica2">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 2</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem3.webp" alt="musica3">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 3</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem4.webp" alt="musica4">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 4</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem5.JPG" alt="musica5">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 5</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem6.webp" alt="musica6">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 6</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>     
+                
+                <div>
+                    <div class="img2">
+                        <img src="img/imagem7.png" alt="musica7">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 7</h3>
+                        <p>Feito pra você</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="img2">
+                        <img src="img/musicaplay.png" alt="musica8">
+                    </div>
+                    <div class="escritas2">
+                        <h3>Mix 8</h3>
+                        <p>Feito pra você</p>
+                    </div>     
+                </div>
+            </div>      
+            <button class="btn-direito">></button>
+        </section>        
+    </main>
+
+    <div id="play">
+        <div id="musica-play">
+            <div id="musica-selecionada">
+                <img src="img/musicaplay.png" alt="Sweater Weather">
+                <div id="descricao-musica">
+                    <h3>Sweater Weather</h3>
+                    <p>The Neighbourhood</p>
+                </div>
+            </div>
+        </div>
+        <div id="audio">
+            <audio id="audio" controls>
+                <source src="musica/01 - Sweater Weather - The Neighbourhood (Max & Alyson ..._34487982.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+    
+</body>
+</html>
